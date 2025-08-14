@@ -5,6 +5,7 @@
 
 #include <gtsam/linear/HessianFactor.h>
 #include <gtsam/nonlinear/LinearContainerFactor.h>
+#include <boost/serialization/nvp.hpp>
 
 namespace gtsam_points {
 
