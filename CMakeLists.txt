@@ -210,6 +210,7 @@ target_link_libraries(gtsam_points
   Boost::boost
   Boost::graph
   Boost::filesystem
+  Boost::serialization
   Eigen3::Eigen
   gtsam
   gtsam_unstable
