@@ -29,7 +29,7 @@ if(BUILD_WITH_MARCH_NATIVE)
   set(CMAKE_CXX_FLAGS "-march=native ${CMAKE_CXX_FLAGS}")
 endif()
 
-find_package(Boost REQUIRED COMPONENTS graph filesystem)
+find_package(Boost REQUIRED COMPONENTS graph filesystem serialization)
 find_package(GTSAM 4.3 REQUIRED)
 find_package(GTSAM_UNSTABLE 4.3 REQUIRED)
 find_package(Eigen3 REQUIRED)
